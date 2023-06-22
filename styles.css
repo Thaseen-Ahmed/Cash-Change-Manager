@@ -59,6 +59,7 @@ table{
 table:hover{
     background-color: green;
 }
+
 td{
     border: 2px solid black;
     width: 30px;
@@ -73,4 +74,116 @@ td{
     height: 6vh;
     text-align: center;
     width: 50%; */
+}
+
+/* responsive Designing */
+@media(max-width:1000px){
+        .description{
+            margin-top: 2%;
+            font-size: 1.8rem;
+            text-align: center;
+        }
+        label {
+            font-size: 30px;
+            margin-top: 2%;
+        }
+        
+        
+
+}
+@media(max-width:900px){
+    .heading {
+       
+        font-size: 1.8rem;
+    }
+    .description{
+        width: 90%;
+    }
+}
+@media(max-width:800px) {
+     .heading{
+    width: 50%;
+    font-size: 1.7rem;
+    
+}
+table{
+    width: 660px;
+}
+button{
+    height: 6%;
+}
+td{
+    font-size: 1.3rem;
+}
+}
+
+@media(max-width:700px) {
+    table{
+        width: 550px;
+        /* font-size: 10px; */
+    }
+}
+@media(max-width:600px) {
+        input{
+            width: 375px;
+        }
+        .heading{
+            font-size: 1.63rem;
+            height: 10vh;
+        }
+        table{
+            width: 530px;
+        }
+}
+@media(max-width:550px){
+    table {
+        width: 480px;
+    }
+    td{
+        font-size: 1.2rem;
+    }
+    button{
+        width: 15%;
+    }
+    .description {
+        margin-top: 2%;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+}
+@media(max-width:500px){
+    input{
+        width: 350px;
+    }
+    table{
+        width: 430px;
+    }
+    .description{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:450px){
+    input{
+        width: 300px;
+    }
+    table{
+        width: 350px;
+    }
+    .description{
+        margin-top: 1%;
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:400px){
+    .heading{
+        font-size: 1.4rem;
+        height: 8vh;
+    }
+    .description{
+        font-size: 1.3rem;
+        margin-top: 3%;
+    }
+    table{
+        width: 300px;
+    }
 }
