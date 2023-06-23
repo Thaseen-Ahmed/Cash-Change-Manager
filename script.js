@@ -55,7 +55,7 @@ const noOfNotes=document.querySelectorAll(".no-of-notes");
 
 
 
-checkButton=addEventListener("click",function ValiadatBill(){
+checkButton.addEventListener("click",function ValidateBill(){
     message.style.display="none"
     if (billAmount.value > 0){
         if(cashGiven.value>=billAmount.value){
